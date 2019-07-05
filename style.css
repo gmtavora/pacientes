@@ -1,0 +1,128 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  margin: 10px 0 0 auto;
+  padding: 0 30px 0 15px;
+}
+
+.menu {
+  margin: 0 auto 0 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: block;
+  float: left;
+}
+
+button, .navbar img {
+  margin-right: 5px;
+}
+
+.square {
+  width: 64px;
+  height: 64px;
+}
+
+.action {
+  max-width: 15%;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 56px;
+}
+
+th:hover {
+  cursor: pointer;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.sorting {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.no-sort {
+  background-image: url("img/sort.png");
+}
+
+.sort-asc {
+  background-image: url("img/sort-asc.png");
+}
+
+.sort-desc {
+  background-image: url("img/sort-desc.png");
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+.text-black { color: #000000; }
+
+.bg-blue { background-color: #17BEBB; }
+.bg-red { background-color: #D62246; }
+.bg-purple { background-color: #4B1D3F; }
+.bg-teal { background-color: #0E7C7B; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }

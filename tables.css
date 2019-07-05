@@ -1,0 +1,53 @@
+/*
+ * Based on
+ *   https://datatables.net/
+ */
+
+/*
+ * Table styles
+ */
+
+table.dataTable tr td:first-child {
+  font-weight: bold;
+}
+nav ul li a {
+  cursor: pointer;
+}
+table.dataTable {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  border-collapse: separate;
+  border-spacing: 0;
+  /*
+   * Header and footer styles
+   */
+  /*
+   * Body styles
+   */
+}
+table thead .sorting,
+table thead .sorting_asc,
+table thead .sorting_desc,
+table thead .sorting_asc_disabled,
+table thead .sorting_desc_disabled {
+  cursor: pointer;
+  *cursor: hand;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+thead .sorting {
+  background-image: url("img/sort_both.png");
+}
+thead .sorting_asc {
+  background-image: url("img/sort_asc.png");
+}
+thead .sorting_desc {
+  background-image: url("img/sort_desc.png");
+}
+thead .sorting_asc_disabled {
+  background-image: url("img/sort_asc_disabled.png");
+}
+thead .sorting_desc_disabled {
+  background-image: url("img/sort_desc_disabled.png");
+}
